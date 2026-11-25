@@ -5,7 +5,7 @@ terraform {
 resource "aws_instance" "web_server" {
   ami                         = var.ami
   instance_type               = var.instance_type
-  key_name                    = "eu-keys"
+  key_name                    = "KEY NAME" # Add your key name here [Created through AWS GUI]
   associate_public_ip_address = true
   vpc_security_group_ids      = [aws_security_group.web_server_1.id]
   tags = {
