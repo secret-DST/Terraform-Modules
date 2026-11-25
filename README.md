@@ -100,4 +100,3 @@ Potential enhancements include:
 - Adding module documentation and versioning.
 
 
-**Disclaimer:** This project is intended for learning and demonstration purposes. Always review AWS resources, permissions, and potential costs before deploying infrastructure.
